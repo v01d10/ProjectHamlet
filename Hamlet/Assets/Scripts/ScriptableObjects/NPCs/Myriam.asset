@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4508df1c523da5846a44cf23f8bb44cd, type: 3}
   m_Name: Myriam
   m_EditorClassIdentifier: 
-  NPCname: 
-  dialogue: []
-  playerDialogue: []
+  NPCName: Myriam
+  dialogue:
+  - Hey! Where have you been all these years?
+  - Ohh poor boy... You don't know?
+  - 
+  - 
+  - 
+  playerDialogue:
+  - Hey Myriam... I had an important contract in  Upper. Did you saw Mikaela today?
+  - Mind your bussiness old witch...
+  - 
+  - 

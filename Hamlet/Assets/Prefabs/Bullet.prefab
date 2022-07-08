@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 100
-  maxProjectileDistance: 100
+  maxProjectileDistance: 20
 --- !u!33 &4342235212215971841
 MeshFilter:
   m_ObjectHideFlags: 0

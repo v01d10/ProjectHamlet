@@ -20,6 +20,7 @@ public class DisplayInventory : MonoBehaviour
     void Start()
     {
         CreateDisplay();
+        
     }
 
     void Update()
@@ -43,7 +44,6 @@ public class DisplayInventory : MonoBehaviour
             obj.transform.GetChild(0).GetComponentInChildren<Image>().sprite = inventory.database.GetItem[slot.item.Id].uiDisplay;
             obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
             obj.GetComponentInChildren<TextMeshProUGUI>().text = slot.amount.ToString("n0");
-            
             itemDisplayed.Add(slot, obj);
             }
         }

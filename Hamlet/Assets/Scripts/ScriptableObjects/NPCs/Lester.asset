@@ -9,11 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da530d8716d19fc4b9c2758b890e0555, type: 3}
-  m_Name: Bones
+  m_Script: {fileID: 11500000, guid: 4508df1c523da5846a44cf23f8bb44cd, type: 3}
+  m_Name: Lester
   m_EditorClassIdentifier: 
-  Id: 0
-  uiDisplay: {fileID: 1069116515, guid: 0d5bb899fe7eac04c8dfd6eb012fb7fd, type: 3}
-  type: 3
-  description: Remnants of those not enough lucky...
-  buffs: []
+  NPCName: Lester
+  dialogue:
+  - Hola dumbass!
+  - 
+  - 
+  - 
+  playerDialogue:
+  - 
+  - 
+  - 

@@ -6,11 +6,21 @@ public class InventoryManager : MonoBehaviour
 {
     public GameObject inv;
 
+    void Start()
+    {
+        inv.gameObject.SetActive(false);
+    }
+
     void Update()
     {
        if(Input.GetKeyDown(KeyCode.I))
        {
-            inv.gameObject.SetActive(!inv.gameObject.activeSelf);
+        OpenInventory();
        }
+    }
+
+    public void OpenInventory()
+    {
+        inv.gameObject.SetActive(!inv.gameObject.activeSelf);
     }
 }

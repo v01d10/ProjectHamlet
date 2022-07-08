@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NPC file", menuName = "NPC Files Archive")]
 public class NPC : ScriptableObject
 {
-    public string nbame;
+    public string NPCName;
     [TextArea(3,15)]public string[] dialogue;
     [TextArea(3,15)]public string[] playerDialogue; 
 }
