@@ -1,0 +1,6 @@
+{
+  "RoslynExtensionsOptions": {
+    "EnableAnalyzersSupport": true,
+    "LocationPaths": ["C:/Users/FUJITSU i3/Desktop/Unity/Games/RunIt/NuGet/microsoft.unity.analyzers."]
+  }
+}
