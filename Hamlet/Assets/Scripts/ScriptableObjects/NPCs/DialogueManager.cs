@@ -26,16 +26,25 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if(isTalking == true && distance >= 3.5f)
+        if(isTalking == true && distance >= 4.5f)
         {
             EndConversation();
+        }
+
+        if(isTalking == true)
+        {
+            Debug.Log("isTalking");
+        } 
+        else
+        {
+            Debug.Log("Is not talking");
         }
     }
 
     void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if(distance <= 2.5f)
+        if(distance <= 4.5f)
         {
             if(Input.GetKeyDown(KeyCode.UpArrow))
             {

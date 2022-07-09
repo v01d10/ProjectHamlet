@@ -1,0 +1,6 @@
+{
+  "RoslynExtensionsOptions": {
+    "EnableAnalyzersSupport": true,
+    "LocationPaths": ["C:/Users/Dell/Documents/GitHub/hamlet/Hamlet/Microsoft.Unity.Analyzers.dll"]
+    }
+}
