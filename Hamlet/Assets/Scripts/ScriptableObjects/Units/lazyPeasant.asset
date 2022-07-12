@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d4d6c00d8e5f94884a5ebdde3b593b, type: 3}
+  m_Name: lazyPeasant
+  m_EditorClassIdentifier: 
+  isPlayerUnit: 1
+  type: 0
+  unitName: Lazy Peasant
+  unitPrefab: {fileID: 9001490722108723003, guid: 9fdc097fdb9ec714c8658fcb29728be4, type: 3}
+  cost: 5
+  attack: 1
+  health: 5
+  armor: 1

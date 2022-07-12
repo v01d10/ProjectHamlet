@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float RunSpeed = 4f;
     public float WalkSpeed = 2f;
 
+    public Camera Camera;
+
 
     private void Awake()
     {
@@ -44,7 +46,7 @@ public class PlayerController : MonoBehaviour
     void HandleRotationInput()
     {
         RaycastHit _hit;
-        Ray _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray _ray = Camera.ScreenPointToRay(Input.mousePosition);
 
         if(Physics.Raycast(_ray, out _hit))
         {

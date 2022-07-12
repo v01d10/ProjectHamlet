@@ -25,6 +25,6 @@ public class Player : MonoBehaviour
     {
         Inventory.Save();
 
-        Inventory.Container.Items.Clear();
+        Inventory.Container.Items = new InventorySlot[28];
     }
 }
