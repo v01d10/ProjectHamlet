@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace EP.H.Player.Units
+namespace EP.H.Units
 {
-    [CreateAssetMenu(fileName = "New Unity", menuName = "Create New Unit")]
-    public class Unit : ScriptableObject
+    [CreateAssetMenu(fileName = "New Unity", menuName = "New Unit/Basic")]
+    public class BasicUnit : ScriptableObject
     {
         public enum unitType
         {
@@ -20,7 +20,9 @@ namespace EP.H.Player.Units
 
         public string unitName;
 
-        public GameObject unitPrefab;
+        public GameObject workerPrefab;
+        public GameObject guardPrefab;
+        public GameObject healerPrefab;
 
         public float cost;
         public float attack;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using TMPro;
 
 public class ResourceManager : MonoBehaviour
@@ -20,8 +21,8 @@ public class ResourceManager : MonoBehaviour
 
     void Update()
     {
-        ironBalance.text = totalIron + " Iron";
-        goldBalance.text = totalGold + " Gold";
-        coalBalance.text = totalCoal + " Coal";
+        ironBalance.text = totalIron + Environment.NewLine + " Iron";
+        goldBalance.text = totalGold + Environment.NewLine + " Gold";
+        coalBalance.text = totalCoal + Environment.NewLine + " Coal";
     }
 }
